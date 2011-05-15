@@ -1,0 +1,39 @@
+/**
+ * You might tweak these..
+ */
+
+body, select, input, textarea {
+  /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
+  color: #444;
+  /* Set your base font here, to apply evenly */
+  /* font-family: Georgia, serif;  */
+}
+
+/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+/**
+ * Primary styles
+ *
+ * Author: 
+ */
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('../font/chunk-webfont.eot?') format('eot'),
+         url('../font/chunk-webfont.woff') format('woff'),
+         url('../font/chunk-webfont.ttf') format('truetype'),
+         url('../font/chunk-webfont.svg#webfonte9Zur0jF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, nav li {
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+           -o-transition: all .3s ease-in-out; /* Opera is a hell of a lag */
+			   transition: all .3s ease-in-out;
+}

@@ -1,0 +1,10 @@
+I’ve been using this setup for a while, so I thought I shoild share this with everyone.
+This setup is based on latest CodeIgniter and is a good starting point for almost any CI project (or even if you just want to work on markup)!
+
+Contents:
+
+  * Fresh flamy CodeIgniter 2.0.2
+  * Best of latest HTML5 Boilerplate.
+  * Templating library to spice it up.
+  * Minify script that works like a charm with cachebusting
+  * Some extra stuff for CI like autoloading models etc. See config.php
