@@ -2,9 +2,14 @@ I used this setup for a while, so I thought I shoild share this with everyone.
 This setup is based on latest CodeIgniter and is a good starting point for almost any CI project (or even if you just want to work on markup)!
 
 Contents:
-
   * Fresh flamy CodeIgniter 2.0.2
-  * Best of latest HTML5 Boilerplate.
+  * Application and systems folders renamed - makes more sense  
   * Templating library to spice it up.
   * Minify script that works like a charm with cachebusting
   * Some extra stuff for CI like autoloading models etc. See config.php
+  * Errors output with brand new printr() function. See index.php  
+  * Best of latest HTML5 Boilerplate.
+  * Best CSS reset, base for your styles, normalize.css and snippets collection
+  * Solid base for almost any JS heavy app (jQuery, jQuery UI, Selectivizr and even jQuery Animations Enhanced are included)
+
+So what are you waiting for? "git clone git@github.com:suprMax/Ignited-HTML5-Boilerplate.git"!

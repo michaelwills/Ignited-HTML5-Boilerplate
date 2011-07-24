@@ -5,3 +5,6 @@
  * @copyright (c) 2011 BrainCube
  */
 ?>
+		<section class="content">
+			
+		</section>

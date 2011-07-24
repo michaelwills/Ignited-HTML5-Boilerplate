@@ -1,3 +1,8 @@
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header('Location: http://'.$_SERVER['HTTP_HOST'].'/error404');
+header("Connection: close");
+/*
 <html>
 <head>
 <title>404 Page Not Found</title>
@@ -31,4 +36,4 @@ margin:				0 0 4px 0;
 		<?php echo $message; ?>
 	</div>
 </body>
-</html>
+</html>*/

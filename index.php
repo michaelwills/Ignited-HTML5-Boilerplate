@@ -34,11 +34,19 @@ if (defined('ENVIRONMENT'))
 	{
 		case 'development':
 			error_reporting(E_ALL);
+			function printr($str) {
+				echo '<pre>';
+				print_r($str);
+				echo '</pre>';
+			}
 		break;
 	
 		case 'testing':
 		case 'production':
 			error_reporting(0);
+			function printr($str) {
+				return;
+			}
 		break;
 
 		default:

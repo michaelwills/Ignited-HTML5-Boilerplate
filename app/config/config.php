@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-// Manual auto-detection with localhost support
+// Manual auto-detection with localhost support (works from root folder only)
 //$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/';
 $config['base_url'] = '';
 
@@ -238,7 +238,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'ILUVUN1C0RNZ';
+$config['encryption_key'] = 'MY_ENCRYPTION_KEY';
 
 /*
 |--------------------------------------------------------------------------

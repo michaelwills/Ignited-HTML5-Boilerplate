@@ -5,8 +5,7 @@
  * @copyright (c) 2011 BrainCube
  */
 ?>
-	
-	<section class="content">
-		<h1>Error 404!</h1>
-		<p>It seems that your request is invalid or outdated. Please try again!</p>
-	</section>
+		<section class="content">
+			<h1>Error 404!</h1>
+			<p>This is not the webpage you're looking for.</p>
+		</section>

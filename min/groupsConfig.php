@@ -10,17 +10,12 @@
  **/
 
 return array(
-    'style' => array(
-		// Global reset
+    'styles' => array(
 		'../css/reset.css',
-		// Concatenation emulation
-		'../css/style.combined.css',
-		'../css/style.helpers.css',
-		'../css/style.media.css',
-		'../css/style.iefixes.css'
+		'../css/style.css'
 	),
 	'script' => array(
-		//'../js/plugins.js',
+		'../js/plugins.js',
 		'../js/script.js'
 	)
 );
