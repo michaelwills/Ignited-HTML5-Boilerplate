@@ -2,31 +2,6 @@
    Repeated styles, CSS3 Goodness, etc.
    ========================================================================== */
 
-.border-radius {
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-			border-radius: 10px;
-}
-
-.transition {
-	-webkit-transition: all 0.3s ease-in-out;
-	   -moz-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
-}
-
-/* =============================================================================
-   Loading Fonts
-   ========================================================================== */
-
-
-
-
-
-
-
-
 
 /* =============================================================================
    Headings, fonts, other global stuff
@@ -42,7 +17,7 @@ body, select, input, button, textarea {
    Also: hot pink! */
 ::-moz-selection { background: #fe57a1; color:#fff; text-shadow: none; }
 ::selection { background:#fe57a1; color:#fff; text-shadow: none; }
-a:link { -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #fe57a1; } /* j.mp/webkit-tap-highlight-color */
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6, nav, b, strong, th, strong {
@@ -64,12 +39,11 @@ a:hover {
 
 /* Colors for form validity */
 input:valid, textarea:valid {  }
-input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0 0 5px red; -webkit-box-shadow: 0 0 5px red; box-shadow: 0 0 5px red; }
-.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 /* =============================================================================
    Primary styles
-   Author: Max Degterev @suprMax
+   Author: 
    ========================================================================== */
 
 
@@ -147,10 +121,10 @@ input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0 0 5px r
  */
 .trigger3D {
 	-webkit-transform: translate3d(0,0,0);
-		-moz-transform: translate3d(0,0,0);
-		  -ms-transform: translate3d(0,0,0);
-			 -o-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
+	   -moz-transform: translate3d(0,0,0);
+    	-ms-transform: translate3d(0,0,0);
+		 -o-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
 }
 
 /* prevent callout */
@@ -161,15 +135,6 @@ input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0 0 5px r
 
 /* A hack for HTML5 contenteditable attribute on mobile */
 textarea.contenteditable { -webkit-appearance: none; }
-
-/* =============================================================================
-	IE hacks and fixes (stop doing them! IE is not a browser)
-   ========================================================================== */
-
-
-
-
-
 
 /* =============================================================================
    PLACEHOLDER Media Queries for Responsive Design.

@@ -18,7 +18,7 @@ $project = base_url();
 	<meta name="description" content="">
 	<meta name="author" content="Max Degterev - front-end superhero">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <?php /* You can pick one of these links if you need specific toush icon
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $project; ?>apple-touch-icon-114x114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $project; ?>apple-touch-icon-72x72-precomposed.png">
@@ -36,7 +36,7 @@ $project = base_url();
 	<?php /* You can define what files you want to load in /min/groupsConfig.php */ ?>
 	<?php /*	<link rel="stylesheet" href="<?php echo $project; ?>css/style.001.css">*/?>
 
-	<script src="<?php echo $project; ?>js/libs/modernizr.min.js"></script>
+	<script src="<?php echo $project; ?>js/libs/modernizr-2.0.6.min.js"></script>
 	<?php /* Respond is a polyfill for min/max-width CSS3 Media Queries */ ?>
 	<?php /*	<script src="<?php echo $project; ?>js/libs/respond.min.js"></script>*/?>
 	<?php echo $this->tpl->get_header(); ?>
@@ -60,8 +60,8 @@ $project = base_url();
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="<?php echo $project; ?>js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
-	<script>window.jQuery || document.write('<script src="<?php echo $project; ?>js/libs/jquery-ui-1.8.14.custom.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+	<script>window.jQuery || document.write('<script src="<?php echo $project; ?>js/libs/jquery-ui-1.8.15.custom.min.js"><\/script>')</script>
 
 	<?php /* Extend $.animate() to detect CSS transitions for Webkit, Mozilla and Opera and convert animations automatically. */ ?>
 	<?php /*	<script src="<?php echo $project; ?>js/libs/jquery.animate-enhanced.min.js"></script>*/?>
@@ -76,10 +76,10 @@ $project = base_url();
 	<![endif]-->
 
 	<script>
-		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
-		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-		s.parentNode.insertBefore(g,s)}(document,'script'));
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+		load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
 	</script>
 
 </body>

@@ -259,7 +259,7 @@ pre.wrapfix {
 }
 
 .opacity-half {
-	-khtml-opacity: .50;
+	-khtml-opacity: .50;s
 	  -moz-opacity: .50;
 		   opacity: .50;
 
@@ -267,12 +267,12 @@ pre.wrapfix {
 		 filter: alpha(opacity=50);
 }
 	.opacity-full {
-		-moz-opacity: 1;
 		-khtml-opacity: 1;
-		opacity: 1;
+		  -moz-opacity: 1;
+			   opacity: 1;
 
 		-ms-filter: "alpha(opacity=100)";
-		filter: alpha(opacity=100);
+			filter:  alpha(opacity=100);
 	}
 
 .double-borders {
