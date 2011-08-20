@@ -19,7 +19,7 @@ $project = base_url();
 	<meta name="author" content="Max Degterev - front-end superhero">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<?php /* You can pick one of these links if you need specific toush icon
+<?php /* You can pick one of these links if you need specific touch icon
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $project; ?>apple-touch-icon-114x114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $project; ?>apple-touch-icon-72x72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo $project; ?>apple-touch-icon-57x57-precomposed.png">
@@ -60,8 +60,8 @@ $project = base_url();
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="<?php echo $project; ?>js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
-	<script>window.jQuery || document.write('<script src="<?php echo $project; ?>js/libs/jquery-ui-1.8.15.custom.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script>window.jQuery || document.write('<script src="<?php echo $project; ?>js/libs/jquery-ui-1.8.16.custom.min.js"><\/script>')</script>
 
 	<?php /* Extend $.animate() to detect CSS transitions for Webkit, Mozilla and Opera and convert animations automatically. */ ?>
 	<?php /*	<script src="<?php echo $project; ?>js/libs/jquery.animate-enhanced.min.js"></script>*/?>
